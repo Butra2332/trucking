@@ -1,0 +1,31 @@
+.advantages {
+    padding: 58px 0 51px 0;
+    height: 590px;
+    background-color: #f3f3f3;
+    .block {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        .block__icons {
+            margin-right: 20px;
+        }
+        .block__toptext {
+            color: #ec644b;
+            font-size: 16px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: normal;
+        }
+        .block__text {
+            margin-top: 5px;
+            color: #3a3a3a;
+            font-size: 14px;
+            font-weight: 300;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 22px;
+            text-align: left;
+        }
+    }
+}

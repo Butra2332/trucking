@@ -1,0 +1,18 @@
+@import "library/font";
+@import "library/bootstrap-grid.min";
+@import "library/bootstrap-reboot.min";
+@import "promo";
+@import "button";
+@import "title";
+@import "advantages";
+
+
+* {font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1145px;
+}
+
+
+

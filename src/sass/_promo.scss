@@ -1,0 +1,112 @@
+.promo {
+    min-height: 680px;
+    background: url(../img/bck/bck_fly.png) center (center/cover) no-repeat;
+    padding: 23px 0 82px 0;
+    .promo__header {
+        display: flex;
+        justify-content: space-between;
+    }
+    .header__menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+        .menu__item {
+            border-right: 1px dotted #ffffff;
+            padding-right: 20px;
+        }
+        .menu__link {
+            color: #ffffff;
+            font-size: 15px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 16.71px;
+            text-align: left;
+            text-decoration: none;
+        }
+    }
+    .header__contacts {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 15px;
+        .header__question {
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 300;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 24px;
+            text-align: right;
+        }
+        .header__phone {
+            color: #ffffff;
+            font-size: 19px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 24px;
+            text-align: right;
+            text-decoration: none;
+        }
+
+    }
+    .promo__content {
+        margin-top: 5px;
+        .promo__content-text {
+            color: #ffffff;
+            font-size: 24px;
+            font-weight: 300;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: normal;
+            text-align: center;
+        }
+        .promo__title {
+            margin-top: 26px;
+            color: #ec644b;
+            font-size: 72px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: normal;
+            text-align: center;
+        }
+        .promo__subtitle {
+            margin-top: 9px;
+            color: #ffffff;
+            font-size: 42px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: normal;
+            text-align: center;
+        }
+        .promo__divider {
+            width: 800px;
+            height: 2px;
+            margin: 0 auto;
+            margin-top: 38px;
+            background-color: #ffffff;
+        }
+    }
+    .promo__item {
+        margin-top: 31px;
+        .promo__item-img {
+            display: block;
+            margin: 0 auto;
+        }
+        .promo__item-text {
+            margin-top: 16px ;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 300;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 22px;
+            text-align: center;
+        }
+
+    }
+}

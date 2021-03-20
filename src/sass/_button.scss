@@ -1,0 +1,26 @@
+.button {
+    margin-top: 18px;
+    width: 160px;
+    height: 45px;
+    border-radius: 21px;
+    border: none;
+    background-color: #ec644b;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22.04px;
+    text-align: center;
+    text-transform: uppercase;
+    &_main {
+        display: block;
+        margin: 39px auto 0 auto;
+        width: 230px;
+        height: 57px;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 17.35px;
+        border-radius: 32px;
+    }
+}
