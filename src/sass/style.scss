@@ -1,3 +1,4 @@
+@import "variable";
 @import "library/font";
 @import "library/bootstrap-grid.min";
 @import "library/bootstrap-reboot.min";
@@ -5,6 +6,7 @@
 @import "button";
 @import "title";
 @import "advantages";
+@import "work";
 
 
 * {font-family: 'Roboto', sans-serif;
@@ -12,6 +14,13 @@
 
 .container {
     max-width: 1145px;
+}
+hr {
+    width: 148px;
+    height: 3px;
+    color: #810505;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 
 

@@ -12,11 +12,11 @@
         align-items: center;
         list-style-type: none;
         .menu__item {
-            border-right: 1px dotted #ffffff;
+            border-right: 1px dotted $white_color;
             padding-right: 20px;
         }
         .menu__link {
-            color: #ffffff;
+            color: $white_color;
             font-size: 15px;
             font-weight: 400;
             font-style: normal;
@@ -32,7 +32,7 @@
         justify-content: flex-start;
         margin-top: 15px;
         .header__question {
-            color: #ffffff;
+            color: $white_color;
             font-size: 14px;
             font-weight: 300;
             font-style: normal;
@@ -41,7 +41,7 @@
             text-align: right;
         }
         .header__phone {
-            color: #ffffff;
+            color: $white_color;
             font-size: 19px;
             font-weight: 700;
             font-style: normal;
@@ -55,7 +55,7 @@
     .promo__content {
         margin-top: 5px;
         .promo__content-text {
-            color: #ffffff;
+            color: $white_color;
             font-size: 24px;
             font-weight: 300;
             font-style: normal;
@@ -65,7 +65,7 @@
         }
         .promo__title {
             margin-top: 26px;
-            color: #ec644b;
+            color: $first_color;
             font-size: 72px;
             font-weight: 700;
             font-style: normal;
@@ -75,7 +75,7 @@
         }
         .promo__subtitle {
             margin-top: 9px;
-            color: #ffffff;
+            color: $white_color;
             font-size: 42px;
             font-weight: 400;
             font-style: normal;
@@ -88,7 +88,7 @@
             height: 2px;
             margin: 0 auto;
             margin-top: 38px;
-            background-color: #ffffff;
+            background-color: $white_color;
         }
     }
     .promo__item {
@@ -99,7 +99,7 @@
         }
         .promo__item-text {
             margin-top: 16px ;
-            color: #ffffff;
+            color: $white_color;
             font-size: 16px;
             font-weight: 300;
             font-style: normal;
