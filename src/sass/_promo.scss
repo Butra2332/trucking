@@ -66,12 +66,14 @@
         .promo__title {
             margin-top: 26px;
             color: $first_color;
+            font-family: "Roboto Condensed";
             font-size: 72px;
             font-weight: 700;
             font-style: normal;
             letter-spacing: normal;
             line-height: normal;
             text-align: center;
+            text-transform: uppercase;
         }
         .promo__subtitle {
             margin-top: 9px;

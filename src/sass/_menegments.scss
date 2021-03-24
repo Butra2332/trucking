@@ -1,28 +1,28 @@
-.agent {
+.menegments {
     min-height: 342px;
-    background: url(../img/bck/second_bck.png) center (center/cover) no-repeat;
-    padding: 58px 0 75px 0;
-    .agent__block {
+    padding: 58px 0 76px 0;
+    background: url(../img/bck/bck_4.png) center (center/cover) no-repeat;
+    .managments-block {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .agent__item {
-        width: 102px;
-        height: 102px;
-        border: 1px solid $white_color;
-        border-radius: 100%;
+    .menegments-block__icon {
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 102px;
+        height: 102px;
+        border: 1px solid #ffffff;
+        border-radius: 100%;
         img {
-            width: 48px;
-            height: 51px;
-            margin-bottom: 10px;
+            width: 53px;
+            height: 53px;
         }
     }
-    h2 {
+    .menegments-block__title {
+        margin-top: 20px;
         color: $white_color;
         font-size: 26px;
         font-weight: 700;
@@ -30,10 +30,9 @@
         letter-spacing: normal;
         line-height: 23px;
         text-align: center;
-        margin-top: 20px;
     }
-    .agent__text {
-        margin-top: 22px;
+    .menegments-block__text {
+        margin-top: 18px;
         color: $white_color;
         font-size: 19px;
         font-weight: 300;

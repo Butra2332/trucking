@@ -1,0 +1,21 @@
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    input {
+        width: 268px;
+        height: 45px;
+        border: 1px solid rgba(0, 0, 0, 0.21);
+        background-color: #ffffff;
+        border-radius: 23px;
+        margin: 15px 2px 30px 2px;
+        padding: 0 20px;
+        font-size: 13px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 24px;
+        text-align: left;
+    }  
+}

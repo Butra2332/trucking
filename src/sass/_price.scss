@@ -1,0 +1,89 @@
+.price {
+    height: 952px;
+    padding: 53px 0 58px 0;
+    .price-block__content {
+        margin-top: 34px;
+        width: 265px;
+        height: 355px;
+        border: 1px solid #e9e9e9;
+        background-color: $white_color;
+        img {
+            display: block;
+            margin: 9px auto;
+        }
+    }
+    .price-block__header {
+        width: 261px;
+        height: 61px;
+        background-color: #25333c;
+        margin-top: 2px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .price-block__headertext {
+        color: $white_color;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 23px;
+        text-align: center;
+        text-transform: uppercase;
+    } 
+     
+    .price-block__title {
+        color: #2e2e2e;
+        font-size: 14px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .price-block__subtitle {
+        margin-top: 6px;
+        color: $first_color;
+        font-size: 28px;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 30px;
+        text-align: center;
+    }
+    .price-block__text {
+        margin-top: 20px;
+        color: #2e2e2e;
+        font-size: 14px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 20px;
+        text-align: center;
+    }
+    .price__headline {
+        margin-top: 56px;
+        color: #3a3a3a;
+        font-size: 28px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 23px;
+        text-align: center;
+    }
+    .price__icons {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;        
+    }
+    .price__icon {
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        width: 102px;
+        height: 102px;
+        border: 1px solid #e93b3b;
+        border-radius: 100%; 
+    }
+}

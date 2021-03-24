@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,AAAC,CACR,MAAM,CAAE,KAAK,CACb,OAAO,CAAE,aAAa,CACtB,UAAU,CAAE,yBAAyB,CAAC,MAAM,CAAC,YAAc,CAAC,SAAS,CAUxE,AAbD,AAII,WAJO,CAIP,kBAAkB,AAAC,CACf,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,MAAM,CACtB,eAAe,CAAE,MAAM,CACvB,WAAW,CAAE,MAAM,CACtB,AATL,AAUI,WAVO,CAUP,iBAAiB,AAAC,CACd,YAAY,CAAE,IAAI,CACrB",
+    "sources": [
+        "../sass/managments.scss"
+    ],
+    "names": [],
+    "file": "managments.min.css"
+}
