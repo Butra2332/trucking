@@ -2,6 +2,7 @@
 @import "library/font";
 @import "library/bootstrap-grid.min";
 @import "library/bootstrap-reboot.min";
+@import "library/slick";
 @import "promo";
 @import "button";
 @import "title";
@@ -13,6 +14,7 @@
 @import "menegments";
 @import "form";
 @import "order";
+@import "review";
 
 
 
@@ -21,13 +23,6 @@
 
 .container {
     max-width: 1145px;
-}
-hr {
-    width: 148px;
-    height: 3px;
-    color: #810505;
-    margin: 0 auto;
-    margin-top: 20px;
 }
 
 

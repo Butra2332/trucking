@@ -8,4 +8,19 @@
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 32px;
+    position: relative;
+    &_line {
+        &:before {
+            content: "";
+            position: absolute;
+            width: 148px;
+            height: 1px;
+            background-color: $first_color;
+            bottom: 0px;
+            top: 45px;
+            right: 45%;
+            margin: 0px -23px 0px 0px;
+        }
+    }
+    
 }

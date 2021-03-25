@@ -1,0 +1,63 @@
+.review {
+    height: 470px;
+    padding: 51px 0 65px 0;
+    .review-carousel {
+        width: 600px; 
+        margin: 0 auto; 
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 114px;
+        }
+    }
+    .review-carousel__item {
+        margin-top: 31px;
+        position: relative;
+    }
+    .slick-prev {
+        position: absolute;
+        background-color: $white_color;
+        border: none;
+        top: 20%;
+        transform: translateY(-25%);
+        left: 155px;
+        img {
+            width: 14px;
+            height: 46px;
+        }
+    }
+    .slick-next {
+        position: absolute; 
+        border: none;
+        background-color: $white_color;
+        right: 155px;
+        top: 20%;
+        transform: translateY(-25%);
+        right: 155px;
+        img {
+            width: 14px;
+            height: 46px;
+        }
+    }
+    .review-carousel__title {
+        margin-top: 19px;
+        color: #3a3a3a;
+        font-size: 18px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 22.01px;
+        text-align: center;
+    }
+    .review-carousel__text {
+        margin-top: 15px;
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 22.01px;
+        text-align: justify;
+    }
+}
+    
