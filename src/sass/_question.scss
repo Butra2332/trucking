@@ -1,0 +1,53 @@
+.question {
+    height: 438px;
+    background: url(../img/bck/Bg_plane.png) center (center/cover) no-repeat;
+    padding: 62px 0 79px 0;
+    .question-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .question-content__header{
+        width: 896px;
+        height: 68px;
+        background-color: #25333c;  
+    }
+    .question-content__title {
+        color: $white_color;
+        font-size: 19px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 25px;
+        text-align: center;
+        text-transform: uppercase;
+    } 
+    .question-content__subtitle {
+        color: $white_color;
+        font-size: 14px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: center;
+        text-transform: uppercase;  
+        line-height: 0px;
+    }
+    .question__question-form {
+        height: 229px;
+        width: 896px;
+        background-color: rgba(236, 223, 223, 0.7);
+        position: relative;
+    }
+    textarea {
+        width: 813px;
+        height: 71px;
+        border: 1px solid rgba(0, 0, 0, 0.21);
+        background-color: #ffffff;
+        position: absolute;
+        top: 70px;
+        resize: none;
+    }
+    
+}
