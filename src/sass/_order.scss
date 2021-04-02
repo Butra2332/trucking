@@ -1,5 +1,5 @@
 .order {
-    height: 455px;
+    min-height: 455px;
     padding: 51px 0 46px 0;
     background-color: #f3f3f3;
     .order-block {
@@ -12,7 +12,7 @@
         }
 
     }
-    .order-block__kontent {
+    .order-block__content {
         min-width: 253px;
         height: 150px;
         

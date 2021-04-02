@@ -1,5 +1,5 @@
 .review {
-    height: 470px;
+    min-height: 470px;
     padding: 51px 0 65px 0;
     .review-carousel {
         width: 600px; 
@@ -18,9 +18,9 @@
         position: absolute;
         background-color: $white_color;
         border: none;
-        top: 20%;
+        top: 25%;
         transform: translateY(-25%);
-        left: 155px;
+        left: 185px;
         img {
             width: 14px;
             height: 46px;
@@ -31,9 +31,9 @@
         border: none;
         background-color: $white_color;
         right: 155px;
-        top: 20%;
+        top: 25%;
         transform: translateY(-25%);
-        right: 155px;
+        right: 185px;
         img {
             width: 14px;
             height: 46px;

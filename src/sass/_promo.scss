@@ -1,5 +1,5 @@
 .promo {
-    min-height: 680px;
+    min-height: 677px;
     background: url(../img/bck/bck_fly.png) center (center/cover) no-repeat;
     padding: 23px 0 82px 0;
     .promo__header {
@@ -11,11 +11,18 @@
         justify-content: space-between;
         align-items: center;
         list-style-type: none;
-        .menu__item {
+        .header__link {
             border-right: 1px dotted $white_color;
-            padding-right: 20px;
+            padding: 0 10px;
+            &:last-child {
+                border-right: none;
+            }
+            &:hover {
+                color: $first_color;
+            }
+            
         }
-        .menu__link {
+        .header__link {
             color: $white_color;
             font-size: 15px;
             font-weight: 400;
@@ -86,20 +93,22 @@
             text-align: center;
         }
         .promo__divider {
-            width: 800px;
-            height: 2px;
-            margin: 0 auto;
-            margin-top: 38px;
-            background-color: $white_color;
+            margin: 38px auto 31px auto;
+            color: #ffffff;
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+
         }
     }
-    .promo__item {
+    .promo-item {
         margin-top: 31px;
-        .promo__item-img {
+        .promo-item__img {
             display: block;
             margin: 0 auto;
         }
-        .promo__item-text {
+        .promo-item__text {
             margin-top: 16px ;
             color: $white_color;
             font-size: 16px;

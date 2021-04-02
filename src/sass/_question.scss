@@ -1,5 +1,5 @@
 .question {
-    height: 438px;
+    min-height: 438px;
     background: url(../img/bck/Bg_plane.png) center (center/cover) no-repeat;
     padding: 62px 0 79px 0;
     .question-content {
@@ -15,6 +15,7 @@
         background-color: #25333c;  
     }
     .question-content__title {
+        margin-top: 10px;
         color: $white_color;
         font-size: 19px;
         font-weight: 700;
